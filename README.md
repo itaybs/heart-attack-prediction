@@ -2,8 +2,7 @@
 
 # ❤️ חיזוי סיכון להתקף לב – Heart Attack Risk Prediction
 
-<!-- Live Demo: replace the placeholder URL below after deploying to Streamlit Community Cloud -->
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-FF4B4B?logo=streamlit&logoColor=white)](https://YOUR-APP-NAME.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://heart-attack-prediction-itaybs.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Logistic%20Regression-F7931E?logo=scikitlearn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.63%2B-FF4B4B?logo=streamlit&logoColor=white)
@@ -11,7 +10,7 @@
 
 > **חלק ב' של מטלת Machine Learning** – בניית מודל **Logistic Regression** לחיזוי הסיכון להתקף לב, הערכתו במדדי **Accuracy, Precision, Recall, F1**, ופריסתו כפורטל הערכת סיכון רפואי אינטראקטיבי ב-**Streamlit**, בעברית מלאה ובממשק RTL.
 
-> 🔗 **Live Demo:** *(יעודכן לאחר הפריסה ל-Streamlit Community Cloud)* – `https://YOUR-APP-NAME.streamlit.app`
+> 🔗 **Live Demo:** [heart-attack-prediction-itaybs.streamlit.app](https://heart-attack-prediction-itaybs.streamlit.app/) – האפליקציה פרוסה ב-Streamlit Community Cloud וזמינה לשימוש ישירות מהדפדפן, ללא התקנה.
 
 > ⚠️ **הבהרה רפואית:** זהו פרויקט אקדמי לצורכי לימוד בלבד. התוצאות **אינן אבחנה רפואית** ואינן מחליפות בדיקה או שיקול דעת של רופא.
 
@@ -273,7 +272,7 @@ streamlit run app.py
 
 האפליקציה תיפתח בכתובת `http://localhost:8501`.
 
-**פריסה ל-Streamlit Community Cloud:** חברו את המאגר ב-[share.streamlit.io](https://share.streamlit.io), בחרו `app.py` כקובץ הראשי, ועדכנו את קישור ה-Live Demo בראש הקובץ.
+**פריסה ל-Streamlit Community Cloud:** הגרסה הפרוסה זמינה ב-[heart-attack-prediction-itaybs.streamlit.app](https://heart-attack-prediction-itaybs.streamlit.app/). לפריסה עצמאית: חברו את המאגר ב-[share.streamlit.io](https://share.streamlit.io) ובחרו `app.py` כקובץ הראשי.
 
 ---
 
