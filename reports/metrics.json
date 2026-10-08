@@ -1,0 +1,97 @@
+{
+  "n_rows_raw": 298,
+  "missing_values_raw": 0,
+  "duplicates_raw": 0,
+  "n_rows": 298,
+  "n_train": 238,
+  "n_test": 60,
+  "positive_rate": 0.540268456375839,
+  "n_features": 15,
+  "train": {
+    "accuracy": 0.8403361344537815,
+    "precision": 0.837037037037037,
+    "recall": 0.875968992248062,
+    "f1": 0.8560606060606061,
+    "roc_auc": 0.9285968281061091,
+    "tn": 87,
+    "fp": 22,
+    "fn": 16,
+    "tp": 113,
+    "specificity": 0.7981651376146789
+  },
+  "test": {
+    "accuracy": 0.7666666666666667,
+    "precision": 0.78125,
+    "recall": 0.78125,
+    "f1": 0.78125,
+    "roc_auc": 0.8616071428571429,
+    "tn": 21,
+    "fp": 7,
+    "fn": 7,
+    "tp": 25,
+    "specificity": 0.75
+  },
+  "baseline_majority": {
+    "accuracy": 0.5333333333333333,
+    "precision": 0.5333333333333333,
+    "recall": 1.0,
+    "f1": 0.6956521739130435,
+    "tn": 0,
+    "fp": 28,
+    "fn": 0,
+    "tp": 32,
+    "specificity": 0.0
+  },
+  "cv_recall_mean": 0.8450757575757576,
+  "cv_recall_std": 0.07550288627349963,
+  "cv_f1_mean": 0.8155015264384524,
+  "cv_f1_std": 0.03659220336432167,
+  "thresholds": [
+    {
+      "threshold": 0.3,
+      "accuracy": 0.75,
+      "precision": 0.717948717948718,
+      "recall": 0.875,
+      "f1": 0.7887323943661971,
+      "fn": 4,
+      "fp": 11
+    },
+    {
+      "threshold": 0.4,
+      "accuracy": 0.75,
+      "precision": 0.7297297297297297,
+      "recall": 0.84375,
+      "f1": 0.782608695652174,
+      "fn": 5,
+      "fp": 10
+    },
+    {
+      "threshold": 0.5,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.78125,
+      "recall": 0.78125,
+      "f1": 0.78125,
+      "fn": 7,
+      "fp": 7
+    },
+    {
+      "threshold": 0.6,
+      "accuracy": 0.8,
+      "precision": 0.8333333333333334,
+      "recall": 0.78125,
+      "f1": 0.8064516129032258,
+      "fn": 7,
+      "fp": 5
+    },
+    {
+      "threshold": 0.7,
+      "accuracy": 0.7333333333333333,
+      "precision": 0.8333333333333334,
+      "recall": 0.625,
+      "f1": 0.7142857142857143,
+      "fn": 12,
+      "fp": 4
+    }
+  ],
+  "intercept": 0.12306937217010328
+}
